@@ -1,0 +1,97 @@
+#main-navigation-bar {
+    width: 100%s;
+    height: 70px;
+    background-color: green;
+    font-size: 18px;
+    font-family: monospace;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align:center;
+}
+
+ul.navigation-links  li {
+    /*inline - строчный, block - блочный*/
+    display: ruby-text-container;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+#main-content {
+    position: relative;
+    display: block;
+    float: right;
+
+    font-size: 17px;
+    font-family: monospace;
+    height: 200px;
+    padding-left: 2px;
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    background-color: red;
+}
+h3{
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 0px;
+    height: 180px;
+    padding-top: 120px;
+    position: absolute;
+    bottom: 0;
+    background-color: orange;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-image: round;
+}
+
+
+
+#p1header{
+    font-size: 120%;
+    margin: 0;
+   padding: 0;
+}
+#p2header{
+    margin: 0;
+    padding: 0;
+}
+#p3header{
+    margin: 0;
+    padding: 0;
+}
+#p4header{
+    margin: 0;
+    padding: 0;
+}
+#h2main{
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
